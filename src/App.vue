@@ -13,6 +13,11 @@ export default Vue.extend({
   name: "app",
   components: {
     HelloWorld
+  },
+  methods: {
+    wrong(): string {
+      return 1;
+    }
   }
 });
 </script>
